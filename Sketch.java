@@ -48,7 +48,7 @@ public class Sketch extends PApplet {
      rect((float) (houseX + 90), (float) (houseY +30), (float) (houseWidth - 120), (float) (houseHeight - 30));
 
      int knobGray = 110;
-     fill(knobGray);
+     fill(knobGray); //
      ellipse((float) (houseX + 155), (float) (houseY + 100), (float) (houseWidth -185), (float) (houseHeight - 135));
    }
   }
